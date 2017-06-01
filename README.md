@@ -6,6 +6,7 @@
 参数配置：
 
 var defaults = {
+
 			id : $(this).attr("id"),// 设置id
       
 			renderTo : $(this).parent(),// 指定绑定源
@@ -16,8 +17,14 @@ var defaults = {
       
 			ajaxUrl:'',
       
-			closeFn : function() {}// 关闭时回调};
+			closeFn : function() {// 关闭时回调
       
-      
+			}
+		};
+
+
 示例如下：
+
+![image](https://github.com/xielingxiao/himallDistrict/blob/master/images/1.png)
+
 
